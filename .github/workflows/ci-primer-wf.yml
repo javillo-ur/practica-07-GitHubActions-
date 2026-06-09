@@ -8,11 +8,11 @@ jobs:
 
     steps:
       - name: Echo
-        run: echo "Hello world"
+        run: echooooo "Hello world"
         shell: bash
 
       - name: Display the path
-        run: |  
+        run: |
                 node --version
                 npm --version
                 pwd
